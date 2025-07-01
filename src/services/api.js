@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api/nasa';
+const BASE_URL = 'https://nasaapi-backend-kzuj.onrender.com/api/nasa';
 
 export const fetchApod = async () => {
   const res = await axios.get(`${BASE_URL}/apod`);
